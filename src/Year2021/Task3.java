@@ -33,7 +33,6 @@ public class Task3 {
     }
 
     public int part2() {
-        System.out.println("bla bla bla");
         return parse(getOxygenGeneratorRating()) * parse(getCO2ScrubberRating());
     }
 
