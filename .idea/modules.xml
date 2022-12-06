@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Advent of Code.iml" filepath="$PROJECT_DIR$/Advent of Code.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Year2021/Year2021.iml" filepath="$PROJECT_DIR$/Year2021/Year2021.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Year2022/Year2022.iml" filepath="$PROJECT_DIR$/Year2022/Year2022.iml" />
     </modules>
   </component>
 </project>
