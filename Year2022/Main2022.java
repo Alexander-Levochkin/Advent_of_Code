@@ -7,7 +7,7 @@ import java.util.List;
 
 public class Main2022 {
     public static void main(String[] args) throws IOException {
-        var task = new Task6();
+        var task = new Task8();
         System.out.println(task.part1());
         System.out.println(task.part2());
     }
