@@ -1,9 +1,8 @@
 package Year2022;
 
-import Year2022.tasks.*;
+import Year2022.tasks.Task8;
 
 import java.io.IOException;
-import java.util.List;
 
 public class Main2022 {
     public static void main(String[] args) throws IOException {
