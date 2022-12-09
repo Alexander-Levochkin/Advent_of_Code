@@ -24,6 +24,7 @@ public class Task9 {
         return rope.getTail().markedCells.size();
     }
 
+    //TODO part2 doesn't work for some reason. I'm currently fixing it
     public int part2() throws IOException {
         Rope rope = new Rope(10);
         for (String line : Files.readAllLines(InputScanner.getPath(getClass().getSimpleName()))) {
