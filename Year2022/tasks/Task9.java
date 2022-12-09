@@ -95,48 +95,4 @@ public class Task9 {
 
         private record Coordinate(int x, int y) {}
     }
-
-/*    private static class Rope {
-        int xHead = 1;
-        int yHead = 1;
-        int xTail = 1;
-        int yTail = 1;
-
-        final Set<Coordinate> markedCells = new HashSet<>();
-
-        public Rope() {
-            markedCells.add(new Coordinate(xTail, yTail));
-        }
-
-        public void move(Direction direction) {
-            moveHead(direction);
-            moveTail();
-            markedCells.add(new Coordinate(xTail, yTail));
-*//*            System.out.println("Head: " + xHead + " " + yHead);
-            System.out.println("Tail: " + xTail + " " + yTail);
-            System.out.println();*//*
-        }
-
-        private void moveTail() {
-            boolean moveX = Math.abs(xHead - xTail) == 2;
-            boolean moveY = Math.abs(yHead - yTail) == 2;
-
-            if ((moveX & Math.abs(yHead - yTail) == 1) || (moveY && Math.abs(xHead - xTail) == 1)) {
-                xTail += xHead < xTail ? -1 : 1;
-                yTail += yHead < yTail ? -1 : 1;
-            } else if (moveX && !moveY) xTail += xHead < xTail ? -1 : 1;
-            else if (!moveX && moveY) yTail += yHead < yTail ? -1 : 1;
-        }
-
-        private void moveHead(Direction direction) {
-            switch (direction) {
-                case L -> xHead--;
-                case R -> xHead++;
-                case U -> yHead++;
-                case D -> yHead--;
-            }
-        }
-
-        private record Coordinate(int x, int y) {}
-    }*/
 }
