@@ -1,7 +1,5 @@
 package Year2022.scanner;
 
-import helper.Constants;
-
 import java.io.IOException;
 import java.nio.file.Path;
 

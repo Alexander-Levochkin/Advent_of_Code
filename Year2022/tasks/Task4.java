@@ -1,13 +1,10 @@
 package Year2022.tasks;
 
 import Year2022.scanner.InputScanner;
-import helper.ToListScanner;
 
 import java.io.IOException;
 import java.nio.file.Files;
-import java.nio.file.Path;
 import java.util.Arrays;
-import java.util.List;
 
 /**
  * <a href="https://adventofcode.com/2022/day/4">Task description</a>
